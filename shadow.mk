@@ -121,7 +121,9 @@ PRODUCT_PACKAGES += \
     sensors.shadow \
     lights.shadow \
     libaudiopolicy \
-    Usb
+    Usb \
+    mot_boot_mode \
+    charge_only_mode
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
